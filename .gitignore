@@ -21,6 +21,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Tests coverage
+/coverage
+
 # Environment files (optional, if you keep secrets locally)
 # uncomment if you don’t want env files in git
 # *.env
