@@ -1,9 +1,17 @@
 {
   "arrowParens": "avoid",
   "trailingComma": "all",
-  "printWidth": 100,
+  "printWidth": 150,
   "singleQuote": false,
   "bracketSpacing": true,
   "bracketSameLine": false,
-  "semi": true
+  "semi": true,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "angular"
+      }
+    }
+  ]
 }
